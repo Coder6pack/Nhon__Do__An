@@ -1,0 +1,97 @@
+@import "../globals";
+@import "../ultilities";
+
+.About__team
+{
+   margin-top: 20vh;
+   padding: 0 15%;
+   margin-bottom: 10vh;
+
+   &__heading
+   {
+      text-align: center;
+
+      &__p
+      {
+         font-weight: 300;
+         line-height: 10px;
+      }
+
+      &__h31
+      {
+         font-size: 45px;
+         line-height: 55px;
+         font-weight: 500;
+      }
+
+      &__h32
+      {
+         font-size: 45px;
+         line-height: 55px;
+         font-weight: 500;
+         color: $color--primary; 
+      }
+   }
+
+   &__container
+   {
+      margin-top: 5vh;
+      justify-content: space-around;
+      display: flex;
+
+      &__title
+      {
+         width: 20%;
+
+         &__img
+         {
+            &__son
+            {
+               width: 100%;
+               border-radius: 5px;
+            }
+         }
+
+         &__content
+         {
+            border: 1px solid;
+            border-radius: 5px;
+            margin-top: -5px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+            &__icon
+            {
+               margin-top: -15px;
+               text-align: end;
+               color: $color--primary;
+               font-size: 24px;
+
+               &__fb
+               {
+                  display: inline-block;
+                  margin-right: 16px;
+               }
+
+               &__tw
+               {
+                  display: inline-block;
+                  margin-right: 16px;
+               }
+            }
+
+            &__name
+            {
+               font-size: 24px;
+               margin: 24px 0px 8px 0px;
+            }
+
+            &__job
+            {
+               color: $color--font;
+            }
+         }
+      }
+
+   }
+}

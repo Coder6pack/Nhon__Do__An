@@ -1,0 +1,88 @@
+@import "../globals";
+@import "../ultilities";
+
+.Services__choose
+{
+   padding: 0 15%;
+   margin-top: 10vh;
+   margin-bottom: 15vh;
+
+   &__container
+   {
+      display: flex;
+      justify-content: space-around;
+
+      &__title1
+      {
+         width: 45%;
+
+         &__heading
+         {
+            font-size: 45px;
+            line-height: 55px;
+            font-weight: 500;
+
+            &__h32
+            {
+               margin-top: 10px;
+               margin-bottom: 24px;
+               color: $color--primary;
+            }
+         }
+
+         &__para
+         {
+            color: $color--font;
+            line-height: 1.5;
+            margin-bottom: 32px;
+         }
+
+         &__ul
+         {
+            display: flex;
+            &__son1
+            {
+               width: 50%;
+               list-style: circle;
+               color:$color--primary;
+
+               &__li
+               {
+                  margin-top: 10px;
+                  
+                  &__p
+                  {
+                     color: black;
+                     padding-left: 10px;
+                  }
+               }
+            }
+
+            &__son2
+            {
+               width: 50%;
+               list-style: circle;
+               color:$color--primary;
+
+               &__li
+               {
+                  margin-top: 10px;
+                  
+                  &__p
+                  {
+                     color: black;
+                     padding-left: 10px;
+                  }
+               }
+            }
+         }
+      }
+
+      &__title2
+      {
+         width: 45%;
+         background-image: url("../../../img/service__picvd.jpg");
+         background-size: cover;
+      }
+   }
+}

@@ -1,0 +1,29 @@
+@import "../globals";
+@import "../ultilities";
+
+.About__outdoor
+{
+   height: 50vh;
+   text-align: center;
+   background-image: url("../../../img/About__outdoor__bg.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 10vh ;
+   z-index: 0;
+
+   &__heading
+   {
+      color: white;
+
+      &__h31
+      {
+         font-size: 45px;
+      }
+
+      &__h32
+      {
+         font-size: 45px;
+         color: $color--primary;
+      }
+   }
+}

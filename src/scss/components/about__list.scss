@@ -1,0 +1,60 @@
+@import "../globals";
+@import "../ultilities";
+
+.About__list
+{
+   height: 20vh;
+   z-index: -1;
+   padding: 0 15%;
+
+   &__container
+   {
+      display: flex;
+      justify-content: space-around;
+
+      &__title
+      {
+         width: 30%;
+         text-align: center;
+         border: 1px solid;
+         padding: 2%;
+         z-index: 2;
+         margin-top: -150px;
+         background-color: white;
+         border-radius: 5px;
+
+         &__icon
+         {
+            font-size: 45px;
+            margin-bottom: 10px;
+            color: $color--primary;
+         }
+
+         &__h3
+         {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 34px;
+            margin-bottom: 20px;
+         }
+
+         &__p
+         {
+            color:$color--font;
+            padding: 2%;
+            margin-bottom: 32px;
+         }
+
+         &__a
+         {
+            display: inline-block;
+            background-color:$color--primary;
+            max-width: 152px;
+            height: 46px;
+            padding: 12px 12px;
+            color: white;
+            font-weight: bold;
+         }
+      }
+   }
+}

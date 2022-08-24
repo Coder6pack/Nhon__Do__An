@@ -1,0 +1,26 @@
+@import "variables.scss";
+
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+
+a
+{
+   color:$color--heading;
+   text-decoration: none;
+   display: inline-block;
+}
+
+i{
+   display: inline-block;
+}
+
+
+ul{
+   list-style: none;
+}

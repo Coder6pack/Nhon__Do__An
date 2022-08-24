@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #060606;
+  text-decoration: none;
+  display: inline-block;
+}
+
+i {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+.header__top {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  font-weight: 500;
+  padding: 15px 0px;
+  padding: 0px 10%;
+}
+.header__top__title {
+  display: flex;
+  width: 50%;
+}
+.header__top__title__second {
+  margin-left: 5%;
+}
+.header__top__title__icon {
+  width: 100%;
+  text-align: end;
+}
+
+.header__main {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../../../img/header.jpg");
+  background-size: cover;
+}
+.header__main__nav {
+  display: flex;
+  height: 10vh;
+  background-color: #0abf53;
+  padding: 0px 10%;
+  align-items: center;
+  margin-top: -20px;
+}
+.header__main__nav__first {
+  width: 20%;
+  font-size: 28px;
+  font-weight: 800;
+}
+.header__main__nav__first__title {
+  color: white;
+}
+.header__main__nav__second {
+  width: 75%;
+  text-align: end;
+}
+.header__main__nav__second__content {
+  margin-right: 1%;
+  color: white;
+}
+.header__main__nav__thirh {
+  width: 5%;
+  text-align: end;
+}
+
+main {
+  margin-top: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #060606;
+  text-decoration: none;
+  display: inline-block;
+}
+
+i {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.since {
+  display: flex;
+  gap: 10%;
+  margin-bottom: 100px;
+  height: 100vh;
+}
+.since__img {
+  width: 35%;
+  position: relative;
+}
+.since__img__second {
+  position: absolute;
+  border: 10px solid white;
+  right: 0;
+  top: 15%;
+  z-index: 1;
+}
+.since__title {
+  width: 40%;
+}
+.since__title__top {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.since__title__top__span {
+  color: white;
+  background-color: #0abf53;
+}
+.since__title__bot {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 500;
+}
+.since__title__bot__span {
+  color: #0abf53;
+}
+.since__title__pbold {
+  font-style: italic;
+  color: black;
+  font-weight: 800;
+  margin-top: 32px;
+  line-height: 1.5;
+}
+.since__title__para {
+  margin-top: 32px;
+  line-height: 1.5;
+}
+.since__title__sign {
+  margin-top: 32px;
+  bottom: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #060606;
+  text-decoration: none;
+  display: inline-block;
+}
+
+i {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.oursv {
+  width: 100%;
+}
+.oursv__heading h3 {
+  font-size: 45;
+  line-height: 55px;
+  font-weight: 500;
+}
+.oursv__container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.oursv__container__garden {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  border: 1px solid;
+  padding: 20px;
+}
+.oursv__container__garden__icon {
+  font-size: 40px;
+}
+.oursv__container__garden__content__h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.oursv__container__garden__content__para {
+  line-height: 2;
+  color: #707070;
+}
+.oursv__container__tree {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  border: 1px solid;
+  padding: 20px;
+}
+.oursv__container__tree__icon {
+  font-size: 40px;
+}
+.oursv__container__tree__content__h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.oursv__container__tree__content__para {
+  line-height: 2;
+  color: #707070;
+}
+.oursv__container__cut {
+  width: 25%;
+  display: flex;
+  border: 1px solid;
+  padding: 20px;
+}
+.oursv__container__cut__icon {
+  font-size: 40px;
+}
+.oursv__container__cut__content__h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.oursv__container__cut__content__para {
+  line-height: 2;
+  color: #707070;
+}
+.oursv__container__water {
+  width: 25%;
+  display: flex;
+  gap: 20px;
+  border: 1px solid;
+  padding: 20px;
+}
+.oursv__container__water__icon {
+  font-size: 40px;
+}
+.oursv__container__water__content__h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.oursv__container__water__content__para {
+  line-height: 2;
+  color: #707070;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #060606;
+  text-decoration: none;
+  display: inline-block;
+}
+
+i {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=css.map */

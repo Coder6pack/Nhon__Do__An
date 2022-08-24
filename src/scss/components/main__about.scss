@@ -1,0 +1,81 @@
+@import "../globals";
+@import "../ultilities";
+
+.about
+{
+   padding: 0 15%;
+   display: flex;
+   align-items: center;
+   margin-top: 130px;
+
+   &__container__content
+   {
+      margin-left: 5%;
+      &__heading
+      {
+         margin-top: 32px;
+         text-align: center;
+
+         &__p
+         {
+            color: $color--font;
+            line-height: 10px;
+            font-weight: 300;
+            margin-bottom: 10px;
+         }
+
+         &__h3
+         {
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 55px;
+            margin-bottom: 64px;
+
+            & span
+            {
+               color: $color--primary
+            };
+         }
+      }
+
+      &__container
+      {
+         display: flex;
+
+         &__title
+      {
+         width: 50%;
+         display: flex;
+
+         &__icon
+         {
+            width: 20%;
+            height: 70px;
+            border-radius: 50%;
+            background-color: $color--primary;
+            font-size: 32px;
+            text-align: center;
+            color: white;
+         }
+
+         &__para
+         {
+            margin-left: 16px;
+            &__h3
+            {
+               font-size: 24px;
+               margin-bottom: 16px;
+            }
+
+            &__p
+            {
+               padding-right:20%;
+               margin-bottom: 64px;
+               color: $color--font;
+            }
+         }
+      }
+         
+      }
+   }
+}
