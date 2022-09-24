@@ -55,12 +55,14 @@ header{
       background-color: $color--primary;
       padding: 0px 10%;
       align-items: center;
-      margin-top: -20px;   
+      margin-top: -20px;  
+      transition: 1s; 
       &__first
       {
          width: 20%;
          font-size: 28px;
          font-weight: 800;
+         transition: 1s; 
          
          &__title
          {
@@ -73,6 +75,7 @@ header{
          width: 75%;
          text-align: end;
          font-weight: bold;
+         transition: 1s; 
 
          &__content
          {
@@ -86,10 +89,12 @@ header{
          width: 5%;
          text-align: end;
          display: flex;
+         transition: 1s; 
 
          &__search
          {
             width: 50%;
+            transition: 1s; 
 
             &__icon
             {
@@ -115,4 +120,19 @@ header{
 
 main{
    margin-top: 64px;
+}
+
+
+.header__main__nav
+{
+   position: fixed;
+   width: 100%;
+   z-index: 9;
+   transition: 0.6s;
+}
+
+.sticky
+{
+   transition: 1s;
+   top: 0;
 }
