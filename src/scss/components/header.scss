@@ -9,11 +9,12 @@ header{
 .header__top
 {
    width: 100%;
-   height: 5%;
+   height: 5vh;
    display: flex;
    font-weight: 500;
    padding: 15px 0px;
    padding: 0px 10%;
+   align-items: center;
    &__title
    {
       display: flex;

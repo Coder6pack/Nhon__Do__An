@@ -61,12 +61,46 @@
             {
                font-size: 24px;
                margin-bottom: 15px;
+
             }
             
             &__p
             {
                color: $color--font;
             }
+         }
+      }
+   }
+}
+
+@media (max-width: 425px)
+{
+   .best{
+      
+      padding: 24px 15px;
+      &__heading
+      {
+         &__h31
+         {
+            font-size: 30px;
+            line-height: 40px;
+         }
+
+         &__h32
+         {
+            font-size: 30px;
+            line-height: 40px;
+         }
+      }
+
+      &__container
+      {
+         flex-wrap: wrap;
+         padding: 0;
+
+         &__son
+         {
+            width: 100%;
          }
       }
    }

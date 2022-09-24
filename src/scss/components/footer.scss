@@ -85,6 +85,12 @@ footer
          {
             color: $color--font;
          }
+
+         & a:hover
+         {
+            transition: 1s;
+            color: white;
+         }
       }
 
       &__btn
@@ -126,6 +132,69 @@ footer
       & a
       {
          color: white;
+      }
+
+      & a:hover
+      {
+         transition: 1s;
+         color: $color--primary;
+      }
+   }
+}
+
+@media (max-width: 425px)
+{
+   footer
+   {
+      height: auto;
+      padding: 0;
+   }
+
+   .footer__container1{
+      flex-wrap: wrap;
+      padding: 24px 15px;
+
+      &__logo
+      {
+         margin-top: 24px;
+         width: 100%;
+      }
+
+      &__para
+      {
+         margin-top: 24px;
+         width: 100%;
+         border: none;
+         padding: 0;
+      }
+
+      &__icon
+      {
+         margin-top: 24px;
+         width: 100%;
+         
+         &__ul
+         {
+            padding: 0%;
+            justify-content: flex-start;
+         }
+      }
+   }
+
+   .footer__container2
+   {
+      padding: 24px 15px;
+      margin-top: 48px;
+      flex-wrap: wrap;
+
+      &__title
+      {
+         width: 100%;
+
+         &__h3
+         {
+            font-size: 17px;
+         }
       }
    }
 }
