@@ -133,3 +133,37 @@ main{
       }
    }
 }
+
+.About__main__nav
+{
+   position: fixed;
+   width: 100%;
+   z-index: 9;
+}
+
+.sticky
+{
+   top: 0;
+   animation-duration: 1s;
+   animation-name: roll2;
+
+}
+
+@keyframes roll2
+{
+   0%
+   {
+      top: 5vh;
+   }
+
+   100%
+   {
+      top: 0vh;
+   }
+}
+
+.pabout
+{
+   padding-bottom: 5px;
+   border-bottom: 5px solid white;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HOME</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -47,12 +47,12 @@
 
       <div class="header__main">
         {
-        <div class="header__main__nav">
+        <div class="header__main__nav sticky2">
           <div class="header__main__nav__first">
-            <a class="header__main__nav__first__title" href="">Greensward </a>
+            <a class="header__main__nav__first__title" href="./index.html">Greensward </a>
           </div>
           <div class="header__main__nav__second">
-            <a class="header__main__nav__second__content" href="">HOME </a>
+            <a class="header__main__nav__second__content phome" href="">HOME </a>
             <a class="header__main__nav__second__content" href="./about.html" target="_blank">ABOUT</a>
             <a class="header__main__nav__second__content" href="./services.html" target="_blank">SERVICES</a>
             <a class="header__main__nav__second__content" href="">PAGES</a>
@@ -73,6 +73,42 @@
           </div>
         </div>
         }
+        <div class="slideshow">
+          <div class="slideshow__bg slide fade">
+            <img class="bg1" src="./img/silde1.jpg" alt="slide1">
+            <div class="layer">
+              <h1>Make your home Look lively</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis autem aliquam itaque libero delectus.</p>
+              <a href="">Learn More</a>
+            </div>
+          </div>
+          <div class="slideshow__bg slide fade">
+            <img src="./img/slide2.jpg" alt="slide2" class="bg2">
+            <div class="layer">
+              <h1>Make your home Look lively</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis autem aliquam itaque libero delectus.</p>
+              <a href="">Learn More</a>
+            </div>
+          </div>
+          <div class="slideshow__bg slide fade">
+            <img src="./img/slide3.jpg" alt="slide3" class="bg3">
+            <div class="layer">
+              <h1>Make your home Look lively</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis autem aliquam itaque libero delectus.</p>
+              <a href="">Learn More</a>
+            </div>
+          </div>
+          <div class="slideshow__bg slide fade">
+            <img src="./img/slide4.jpg" alt="bg4" class="bg4">
+            <div class="layer">
+              <h1>Make your home Look lively</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis autem aliquam itaque libero delectus.</p>
+              <a href="">Learn More</a>
+            </div>
+          </div>
+          <a href="" class="truoc" onclick="hienThiSlideTruocDo()">&#10094;</a>
+          <a href="" class="sau" onclick="hienThiSlideKeTiep()">&#10095;</a>
+        </div>
       </div>
     </header>
 
