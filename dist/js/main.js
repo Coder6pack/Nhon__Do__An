@@ -16,6 +16,7 @@ let listImg = document.getElementsByClassName("slideshow__bg slide fade");
 let truocBtn = document.getElementsByClassName("truoc")[0];
 
 let index = 0;
+let index2 = 0;
 truocBtn.style.left = "0px";
 
 listImg[index].style.display = "inline";
@@ -42,3 +43,14 @@ function setDisplay(index) {
   }
   listImg[index].style.display = "inline";
 }
+
+index2 = index;
+setInterval(function () {
+  if (index2 === listImg.length - 1) {
+    index2 = 0;
+    setDisplay(index2);
+  } else {
+    index2 += 1;
+    setDisplay(index2);
+  }
+}, 2000);

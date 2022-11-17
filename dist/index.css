@@ -114,7 +114,7 @@ main {
 
 .sticky {
   top: 0;
-  animation-duration: 1s;
+  animation-duration: 0.3s;
   animation-name: roll;
 }
 
@@ -153,21 +153,63 @@ main {
   position: absolute;
   top: 75%;
   left: 10%;
+  transform: translate(0%, -150%);
   background-color: white;
   display: inline-block;
+  max-width: 600px;
+  line-height: 1.6;
+  padding: 2.5rem;
+  border-radius: 60px 0px;
+}
+.slideshow__bg .layer h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.slideshow__bg .layer p {
+  margin-bottom: 1.5rem;
+}
+.slideshow__bg .layer a {
+  padding: 12px 30px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #0abf53;
+  color: white;
+}
+.slideshow__bg .layer a:hover {
+  background-color: #02983f;
+  transition: 1s;
 }
 
 .truoc, .sau {
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
-  padding: 16px;
-  color: red;
-  font-size: 80px;
+  padding-top: 12px;
+  color: black;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
 
 .sau {
   right: 0%;
+  margin-right: 15px;
+}
+
+.truoc {
+  margin-left: 15px;
+}
+
+.truoc, .sau:hover {
+  cursor: pointer;
+  background-color: #e6e6e6;
+  transition: 0.5s;
 }
 
 * {
